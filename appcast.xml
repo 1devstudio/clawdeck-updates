@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>ClawDeck Changelog</title>
+    <link>https://1devstudio.github.io/clawdeck-updates/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0.1</title>
+      <description><![CDATA[<pre>## ✨ Features
+
+### 💬 Chat
+- **Real-time streaming** — messages stream in live via WebSocket
+- **Markdown rendering** — full rich text with code blocks, lists, links
+- **Image attachments** — paste, drag-and-drop, or click to attach (auto-compressed for gateway limits)
+- **Smart auto-scroll** — only scrolls on new messages when you're at the bottom
+- **Copy & retry** — copy any message, retry the last one
+- **Typing indicators** — seamless lifecycle from send → await → stream
+
+### 🧠 Agent Intelligence
+- **Thinking indicators** — see reasoning tokens during streaming and in history
+- **Tool call visualization** — compact status pill with step count and duration; click to expand full tool steps sidebar with args, results, and timing
+- **Usage & cost display** — per-message token usage and cost breakdown
+- **Context window indicator** — color-coded `189k/200k` pill shows how full the context is
+- **Model selector** — switch models per session via autocomplete dropdown
+- **Abort generation** — cancel thinking/streaming mid-response
+
+### 🗂 Sessions & Organization
+- **Session sidebar** — all sessions with search
+- **Starred & active groups** — pin important sessions to the top
+- **Session renaming** — double-click to rename inline
+- **Cron jobs viewer** — inspect scheduled jobs in the Inspector panel
+
+### 🎨 Customization
+- **Themes** — dark/light mode with customizable accent colors
+- **Backgrounds** — Unsplash photo picker, tiled patterns, or solid colors
+- **Agent avatars** — emoji icons, SF Symbols library, or upload a custom image
+- **Font size** — adjustable text sizing
+- **Liquid Glass** — native macOS Tahoe glass effects on panels
+
+### 🔌 Connection & Multi-Agent
+- **Smart onboarding wizard** — auto-discovery with simplified gateway setup
+- **Multi-gateway support** — connect to multiple Clawdbot instances simultaneously
+- **Agent rail** — Slack-style icon sidebar for switching between agents
+- **Agent & gateway settings** — configure identity, connection, and model per agent
+- **Keychain integration** — gateway tokens stored securely, cached to avoid repeated prompts
+- **Auto-reconnect** — recovers dropped connections gracefully
+
+### 🚀 Distribution
+- **Sparkle auto-updates** — get new versions automatically
+- **GitHub Actions CI/CD** — automated build and release pipeline
+- **DMG packaging** — drag-and-drop install
+
+### ⌨️ Keyboard Shortcuts
+Full keyboard shortcut support for power users — navigate sessions, send messages, and manage the app without leaving the keyboard.</pre>]]></description>
+      <pubDate>Sun, 22 Feb 2026 08:31:16 +0000</pubDate>
+      <enclosure
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.0.1/ClawDeck-1.0.1.dmg"
+        sparkle:edSignature="RcmxPXxnShv8uJ9KCzGmt5J0woySrCfznb/m4TI/oDwxv8Oh9fE/qy+YkwhFh0QznkO5sAvrPN/3Ji5WLJ3NCw==" length="7169567"
+        length="7169567"
+        type="application/octet-stream"
+        sparkle:version="1.0.1"
+        sparkle:shortVersionString="1.0.1" />
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    </item>
+  </channel>
+</rss>
