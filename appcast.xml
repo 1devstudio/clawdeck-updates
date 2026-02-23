@@ -8,18 +8,17 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.0.4</title>
-      <description><![CDATA[<pre>- Remove the context menu from the agent sidebar
-- fixes for app updates
+      <title>Version 1.0.5</title>
+      <description><![CDATA[<pre>Removes the old cronjobs view
 
-**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.3...v1.0.4</pre>]]></description>
-      <pubDate>Mon, 23 Feb 2026 15:13:07 +0000</pubDate>
+**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.4...v1.0.5</pre>]]></description>
+      <pubDate>Mon, 23 Feb 2026 15:41:10 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.0.4/ClawDeck-1.0.4.dmg"
-        sparkle:edSignature="vcHH9xRbu6XZMEPibJi3IwUIR3hVB849JfwstPVoinpzcDd7sJkLm8SjSvcpR/YZ8EQION8Dee01m2gOqzN8AA==" length="7301020"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.0.5/ClawDeck-1.0.5.dmg"
+        sparkle:edSignature="ea5iSQRL/g4sMIiL52cXjzRrRXGEHinjONoHAHgEzDqT0IgYdGakdbWo/j7Jcc9eobFxoc4aSrPOe+nzwou6BQ==" length="7228397"
         type="application/octet-stream"
-        sparkle:version="1.0.4"
-        sparkle:shortVersionString="1.0.4" />
+        sparkle:version="1.0.5"
+        sparkle:shortVersionString="1.0.5" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
