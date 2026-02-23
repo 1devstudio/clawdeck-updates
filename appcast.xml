@@ -8,21 +8,17 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.0.2</title>
-      <description><![CDATA[<pre>## What's Changed
-* feat: Create New Agent from app (CD-67) by @ziolmar in https://github.com/1devstudio/clawdeck/pull/16
+      <title>Version 1.0.3</title>
+      <description><![CDATA[<pre>Fix the problem with displaying an error for a new session.
 
-## New Contributors
-* @ziolmar made their first contribution in https://github.com/1devstudio/clawdeck/pull/16
-
-**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.1...v1.0.2</pre>]]></description>
-      <pubDate>Mon, 23 Feb 2026 08:41:59 +0000</pubDate>
+**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.2...v1.0.3</pre>]]></description>
+      <pubDate>Mon, 23 Feb 2026 14:35:54 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.0.2/ClawDeck-1.0.2.dmg"
-        sparkle:edSignature="F23ZPKbyOFIfRTLOXA7p6JAIpmFhRUzeYggPpBjw2UdEQQlmdWN3gBde8oXcn0iURkPLVYne7TpkIL1xkEn+Aw==" length="7414430"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.0.3/ClawDeck-1.0.3.dmg"
+        sparkle:edSignature="lzrG9JJBe3jok1nA1NjEMQSAwSAiElL5/WpeuVmLNxXNopI24Kax+wAel9KjfQamYA3IwluvGrX7S6WIdFKxCQ==" length="7414155"
         type="application/octet-stream"
-        sparkle:version="1.0.2"
-        sparkle:shortVersionString="1.0.2" />
+        sparkle:version="1.0.3"
+        sparkle:shortVersionString="1.0.3" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
