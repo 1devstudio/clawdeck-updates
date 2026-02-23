@@ -8,17 +8,18 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.0.3</title>
-      <description><![CDATA[<pre>Fix the problem with displaying an error for a new session.
+      <title>Version 1.0.4</title>
+      <description><![CDATA[<pre>- Remove the context menu from the agent sidebar
+- fixes for app updates
 
-**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.2...v1.0.3</pre>]]></description>
-      <pubDate>Mon, 23 Feb 2026 14:35:54 +0000</pubDate>
+**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.3...v1.0.4</pre>]]></description>
+      <pubDate>Mon, 23 Feb 2026 15:13:07 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.0.3/ClawDeck-1.0.3.dmg"
-        sparkle:edSignature="lzrG9JJBe3jok1nA1NjEMQSAwSAiElL5/WpeuVmLNxXNopI24Kax+wAel9KjfQamYA3IwluvGrX7S6WIdFKxCQ==" length="7414155"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.0.4/ClawDeck-1.0.4.dmg"
+        sparkle:edSignature="vcHH9xRbu6XZMEPibJi3IwUIR3hVB849JfwstPVoinpzcDd7sJkLm8SjSvcpR/YZ8EQION8Dee01m2gOqzN8AA==" length="7301020"
         type="application/octet-stream"
-        sparkle:version="1.0.3"
-        sparkle:shortVersionString="1.0.3" />
+        sparkle:version="1.0.4"
+        sparkle:shortVersionString="1.0.4" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
