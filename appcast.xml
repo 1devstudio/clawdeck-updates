@@ -8,17 +8,17 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.0.6</title>
-      <description><![CDATA[<pre>Update the version of Sparkle
+      <title>Version 1.0.7</title>
+      <description><![CDATA[<pre>Fix the bubble width.
 
-**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.5...v1.0.6</pre>]]></description>
-      <pubDate>Mon, 23 Feb 2026 16:19:23 +0000</pubDate>
+**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.6...v1.0.7</pre>]]></description>
+      <pubDate>Mon, 23 Feb 2026 16:49:42 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.0.6/ClawDeck-1.0.6.dmg"
-        sparkle:edSignature="4k8szXWWr5JuIF94TCvJLY12xq9D9eZIynUonLOIyKo7O5ZnIDDaODVNRx9li9Ug2BIvDmYCE41Zjt3ekCEnDg==" length="7228558"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.0.7/ClawDeck-1.0.7.dmg"
+        sparkle:edSignature="0oOXq+OWA3HAWtBQ3DPY4S8i0MCaMAy7G58X1I4f4O5TTI9Z0dIcG1tJ3MXZWAWnN7E7UJ3AcailJFx4xL+pBg==" length="7228628"
         type="application/octet-stream"
-        sparkle:version="1.0.6"
-        sparkle:shortVersionString="1.0.6" />
+        sparkle:version="1.0.7"
+        sparkle:shortVersionString="1.0.7" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
