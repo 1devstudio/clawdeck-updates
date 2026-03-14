@@ -8,26 +8,19 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.1.0</title>
-      <description><![CDATA[<pre>## What's New
+      <title>Version 1.1.1</title>
+      <description><![CDATA[<pre>### Bug Fix
 
-### Channels Panel (DECK-71)
-- New Channels tab in Settings — view channel status, QR login for WhatsApp, per-channel configuration
-- Full channel lifecycle management from within ClawDeck
+- **Fixed "Check for Updates" always disabled** — the Sparkle update check button was permanently grayed out in standalone builds. Root cause was a Combine publisher not reliably updating the `@Observable` property. Switched to direct KVO observation which correctly triggers on app launch.
 
-### Fixes & Improvements
-- **Performance improvements** — smoother scrolling and reduced UI lag
-- **Text truncation fix** — streaming segments now properly sync with final event content, no more cut-off messages
-- **README cleanup** — removed direct download links per GitHub Support request
-
-**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.7...v1.1.0</pre>]]></description>
-      <pubDate>Sat, 14 Mar 2026 19:18:53 +0000</pubDate>
+**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.1.0...v1.1.1</pre>]]></description>
+      <pubDate>Sat, 14 Mar 2026 19:41:11 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.1.0/ClawDeck-1.1.0.dmg"
-        sparkle:edSignature="R5h3DFCFD+Sa7FqvFih52ApysAnjcJxVXOTwKsC/k/nyvxCMx1fo+6rI0vcFWMAQEJ9DYr6Dz08Oln8c0PVxBg==" length="7500998"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.1.1/ClawDeck-1.1.1.dmg"
+        sparkle:edSignature="lZ0yA8wBK9P9KhGapShmv7nuV58nh0ogHnf7d1iSKlefuX5xnTlCW9LWBcriY94o7LN505SWr1Nl9ujk92AADQ==" length="7501576"
         type="application/octet-stream"
-        sparkle:version="1.1.0"
-        sparkle:shortVersionString="1.1.0" />
+        sparkle:version="1.1.1"
+        sparkle:shortVersionString="1.1.1" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
