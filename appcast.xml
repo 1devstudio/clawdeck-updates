@@ -8,17 +8,26 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.0.7</title>
-      <description><![CDATA[<pre>Fix the bubble width.
+      <title>Version 1.1.0</title>
+      <description><![CDATA[<pre>## What's New
 
-**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.6...v1.0.7</pre>]]></description>
-      <pubDate>Mon, 23 Feb 2026 17:08:51 +0000</pubDate>
+### Channels Panel (DECK-71)
+- New Channels tab in Settings — view channel status, QR login for WhatsApp, per-channel configuration
+- Full channel lifecycle management from within ClawDeck
+
+### Fixes & Improvements
+- **Performance improvements** — smoother scrolling and reduced UI lag
+- **Text truncation fix** — streaming segments now properly sync with final event content, no more cut-off messages
+- **README cleanup** — removed direct download links per GitHub Support request
+
+**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.0.7...v1.1.0</pre>]]></description>
+      <pubDate>Sat, 14 Mar 2026 19:18:53 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.0.7/ClawDeck-1.0.7.dmg"
-        sparkle:edSignature="8xBA0TL59x1w8LgvHWO87qH008H3WInW865SfnNIl5W/XBBZ/N/87gx3a7m4bVNg3xVKQvh7gxOBwnOdauZfDQ==" length="7228647"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.1.0/ClawDeck-1.1.0.dmg"
+        sparkle:edSignature="R5h3DFCFD+Sa7FqvFih52ApysAnjcJxVXOTwKsC/k/nyvxCMx1fo+6rI0vcFWMAQEJ9DYr6Dz08Oln8c0PVxBg==" length="7500998"
         type="application/octet-stream"
-        sparkle:version="1.0.7"
-        sparkle:shortVersionString="1.0.7" />
+        sparkle:version="1.1.0"
+        sparkle:shortVersionString="1.1.0" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
