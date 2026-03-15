@@ -8,19 +8,21 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.1.1</title>
+      <title>Version 1.1.2</title>
       <description><![CDATA[<pre>### Bug Fix
 
-- **Fixed "Check for Updates" always disabled** — the Sparkle update check button was permanently grayed out in standalone builds. Root cause was a Combine publisher not reliably updating the `@Observable` property. Switched to direct KVO observation which correctly triggers on app launch.
+- **Streaming responses no longer lose words at the end of sentences.** Adopted the "stream-then-replace" pattern from [OpenClaw](https://github.com/openclaw/openclaw): streaming deltas are ephemeral previews, replaced with authoritative content from gateway history when the run finishes. This eliminates truncation caused by the gateway's 150ms delta throttle dropping final tokens.
 
-**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.1.0...v1.1.1</pre>]]></description>
-      <pubDate>Sat, 14 Mar 2026 19:41:11 +0000</pubDate>
+### Internal
+
+- Net simplification (−31 lines) — removed fragile delta-patching logic in favor of a single `chat.history` reload on completion.</pre>]]></description>
+      <pubDate>Sun, 15 Mar 2026 12:34:08 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.1.1/ClawDeck-1.1.1.dmg"
-        sparkle:edSignature="lZ0yA8wBK9P9KhGapShmv7nuV58nh0ogHnf7d1iSKlefuX5xnTlCW9LWBcriY94o7LN505SWr1Nl9ujk92AADQ==" length="7501576"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.1.2/ClawDeck-1.1.2.dmg"
+        sparkle:edSignature="l2lgxrnc7KYaQKokr6YcJuHCz8XWsEJ+fURqJ74s8PMeLzx/44TuICcdCvYsgVB++8wfZ7PDyf0Ok2Z1gWWGCw==" length="7491823"
         type="application/octet-stream"
-        sparkle:version="1.1.1"
-        sparkle:shortVersionString="1.1.1" />
+        sparkle:version="1.1.2"
+        sparkle:shortVersionString="1.1.2" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
