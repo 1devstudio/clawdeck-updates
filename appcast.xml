@@ -8,18 +8,17 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.2.0</title>
-      <description><![CDATA[<pre>### Added
-- **Device identity (Ed25519)** — Keypair in macOS Keychain, signs gateway challenge
-- First connection triggers **one-time pairing approval**
-- After pairing: full operator scopes everywhere</pre>]]></description>
-      <pubDate>Wed, 18 Mar 2026 20:56:58 +0000</pubDate>
+      <title>Version 1.2.1</title>
+      <description><![CDATA[<pre>### Fixed
+- Added `nonce` field to device identity payload (required by gateway schema)
+- Fixed CryptoKit signature encoding for latest Xcode</pre>]]></description>
+      <pubDate>Wed, 18 Mar 2026 21:07:20 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.2.0/ClawDeck-1.2.0.dmg"
-        sparkle:edSignature="dS7NCH+dTUY5YjlVyETBoIzoRGr9FoHloUANrevZMHZP6RwC/as4ui8wx74p9UV7kPRU2hNCYMT+05VQZtHPAw==" length="7503215"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.2.1/ClawDeck-1.2.1.dmg"
+        sparkle:edSignature="guONf1uXDPyz3bh/iXHzLSIr+jhCQzQmvGs58P/8O7PfcDRFryX1kgpS+W4q9vb76ElEXVo78TZW0fVVO0vNDg==" length="7503232"
         type="application/octet-stream"
-        sparkle:version="1.2.0"
-        sparkle:shortVersionString="1.2.0" />
+        sparkle:version="1.2.1"
+        sparkle:shortVersionString="1.2.1" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
