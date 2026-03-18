@@ -10,11 +10,12 @@
     <item>
       <title>Version 1.1.3</title>
       <description><![CDATA[<pre>### Fixed
-- **Gateway handshake rejected** — Changed `client.id` from `clawdbot-macos` to `gateway-client` to match the gateway protocol schema's allowed client IDs. This fixes connection failures with gateway 2026.3.13+.</pre>]]></description>
-      <pubDate>Wed, 18 Mar 2026 19:07:21 +0000</pubDate>
+- **Gateway handshake rejected** — Changed `client.id` from `clawdbot-macos` to `gateway-client` to match the gateway protocol schema's allowed client IDs. Fixes connection failures with gateway 2026.3.13+.
+- **Xcode project version** — Bumped `MARKETING_VERSION` to 1.1.3.</pre>]]></description>
+      <pubDate>Wed, 18 Mar 2026 19:31:28 +0000</pubDate>
       <enclosure
         url="https://github.com/1devstudio/clawdeck/releases/download/v1.1.3/ClawDeck-1.1.3.dmg"
-        sparkle:edSignature="vsKNmhSwjYByUAZynZxdmAi4E85CMxUDum7DbjiLCEU3vn7kRRCLeNIFTnEazLX3b526EkzFwK+jBPwiL8uTCQ==" length="7491816"
+        sparkle:edSignature="5WoQfYpHrfbC7mP6caqFN6sfZ53fu6AaEqgWuyOlKPS/clCUUwZ2m6SYGJdwKsZn5jT2juS4MIOqdDMr7PnvCA==" length="7491819"
         type="application/octet-stream"
         sparkle:version="1.1.3"
         sparkle:shortVersionString="1.1.3" />
