@@ -16,12 +16,16 @@
   - Retry button reconnects automatically after pairing is complete
   - Works from both initial setup and reconnection flows
 
+### Fixed
+- Robust pairing detection with multiple fallback strategies (Apple's URLSessionWebSocketTask doesn't reliably expose close codes for pre-handshake disconnects)
+- Pairing errors no longer trigger auto-reconnect loops
+
 ---
 **Full Changelog:** https://github.com/1devstudio/clawdeck/compare/v1.2.1...v1.3.0</pre>]]></description>
-      <pubDate>Wed, 18 Mar 2026 21:43:56 +0000</pubDate>
+      <pubDate>Wed, 18 Mar 2026 21:58:19 +0000</pubDate>
       <enclosure
         url="https://github.com/1devstudio/clawdeck/releases/download/v1.3.0/ClawDeck-1.3.0.dmg"
-        sparkle:edSignature="NZBlXp7P86aE63eNzo4KBdq+u/oKqpvslAgPM/1PzDBL8AZCdD9V26TWRrxqWJuaCB9UcoCN9l9ZXQZR9imsCQ==" length="7525424"
+        sparkle:edSignature="zYJgemRDkCW9Eo3V3akOdTcQvJhslUYe9IfgLQNxSiPCwZgXiqEsBKGdUy/1s83i6E5LpDRS64ioiUDTl6kUCw==" length="7528881"
         type="application/octet-stream"
         sparkle:version="1.3.0"
         sparkle:shortVersionString="1.3.0" />
