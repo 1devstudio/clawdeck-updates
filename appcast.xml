@@ -8,17 +8,16 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.1.4</title>
+      <title>Version 1.1.5</title>
       <description><![CDATA[<pre>### Fixed
-- **Gateway scope assignment** — Changed `client.id` to `openclaw-control-ui` so ClawDeck gets proper operator scopes when connecting. Previous `gateway-client` ID bypassed the handshake but got zero scopes.
-- **Xcode version bump** — MARKETING_VERSION now matches release tag.</pre>]]></description>
-      <pubDate>Wed, 18 Mar 2026 20:00:04 +0000</pubDate>
+- **Connection auth** — Changed `client.id` to `openclaw-macos` (the correct ID for native macOS apps). Previous `openclaw-control-ui` ID triggered browser origin checks that fail for native apps without an `Origin` header.</pre>]]></description>
+      <pubDate>Wed, 18 Mar 2026 20:20:06 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.1.4/ClawDeck-1.1.4.dmg"
-        sparkle:edSignature="Xy1jV7MH+XyLb1JOSG5dVJCqu28BxzIBTiWtIXpZQmKf3zfiHTsvzGn4UbIvZCT7pLBx58wdV2l5uO+qWjGKAw==" length="7491890"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.1.5/ClawDeck-1.1.5.dmg"
+        sparkle:edSignature="QfdxXTsgULuQoxJvEVYNIyMdIBX+IZcP2rbJ3AgfUTJc8ge2S5hLutGY+IglwErrT0VdXENJ/q7vkpqHgc7MDw==" length="7491842"
         type="application/octet-stream"
-        sparkle:version="1.1.4"
-        sparkle:shortVersionString="1.1.4" />
+        sparkle:version="1.1.5"
+        sparkle:shortVersionString="1.1.5" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
