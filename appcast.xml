@@ -10,17 +10,13 @@
     <item>
       <title>Version 1.2.0</title>
       <description><![CDATA[<pre>### Added
-- **Device identity (Ed25519)** — ClawDeck now generates an Ed25519 keypair on first launch, stored in macOS Keychain. Signs gateway challenge nonce for proper authentication.
+- **Device identity (Ed25519)** — Keypair in macOS Keychain, signs gateway challenge
 - First connection triggers **one-time pairing approval**
-- After pairing: full operator scopes everywhere (local + LAN + remote)
-
-### Changed  
-- Client ID: `openclaw-macos` (proper native app identifier)
-- Removed Origin header workaround</pre>]]></description>
-      <pubDate>Wed, 18 Mar 2026 20:45:02 +0000</pubDate>
+- After pairing: full operator scopes everywhere</pre>]]></description>
+      <pubDate>Wed, 18 Mar 2026 20:56:58 +0000</pubDate>
       <enclosure
         url="https://github.com/1devstudio/clawdeck/releases/download/v1.2.0/ClawDeck-1.2.0.dmg"
-        sparkle:edSignature="W0MAsKTfZ9rvIa+J0+IFHF2guB5n4eEHaOGtbEB1F0/WS8QxL0QEVNItbJOiY8Psg9HLsVgmT8y+8CCrkRoRCA==" length="7502007"
+        sparkle:edSignature="dS7NCH+dTUY5YjlVyETBoIzoRGr9FoHloUANrevZMHZP6RwC/as4ui8wx74p9UV7kPRU2hNCYMT+05VQZtHPAw==" length="7503215"
         type="application/octet-stream"
         sparkle:version="1.2.0"
         sparkle:shortVersionString="1.2.0" />
