@@ -8,27 +8,29 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.3.0</title>
-      <description><![CDATA[<pre>### Added
-- **Device pairing sheet** — when connecting to a gateway that requires device authorization, ClawDeck now shows a native pairing dialog instead of silently failing
-  - Detects gateway close code 1008 ("pairing required") during WebSocket handshake
-  - Opens the gateway control UI in the browser for one-click pairing approval
-  - Retry button reconnects automatically after pairing is complete
-  - Works from both initial setup and reconnection flows
+      <title>Version 1.3.1</title>
+      <description><![CDATA[<pre>### Fixed
+- **Correct pairing detection** — v1.3.0 tried to detect pairing by catching WebSocket close code 1008 at Step 1 (challenge receive), but the gateway actually sends the error as a proper JSON response (`NOT_PAIRED`) at Step 4 (connect response). Apple's `URLSessionWebSocketTask` doesn't reliably expose close codes, making the old approach hit-or-miss. Now checks the structured error response instead.
+- **Connection wizard handles pairing** — auto-detect, manual, and advanced probe flows all properly detect pairing errors and show the pairing sheet instead of falling through to "connection failed"
+- **Profile auto-saved on pairing** — if pairing is triggered during first-time setup (no profile saved yet), the gateway profile is created automatically before reconnecting
 
-### Fixed
-- Robust pairing detection with multiple fallback strategies (Apple's URLSessionWebSocketTask doesn't reliably expose close codes for pre-handshake disconnects)
-- Pairing errors no longer trigger auto-reconnect loops
+### Improved
+- **Auto-polling pairing sheet** — after opening the Control UI in the browser, ClawDeck polls the gateway every 3 seconds. When pairing is approved, it reconnects automatically — no manual "Retry" click needed.
+- Pairing timeout extended to 2 minutes with clear status messages
+
+### Added
+- `NOT_PAIRED` gateway error code in protocol constants
+- `ConnectErrorDetailCode` enum for structured connect error handling
 
 ---
-**Full Changelog:** https://github.com/1devstudio/clawdeck/compare/v1.2.1...v1.3.0</pre>]]></description>
-      <pubDate>Wed, 18 Mar 2026 21:58:19 +0000</pubDate>
+**Full Changelog:** https://github.com/1devstudio/clawdeck/compare/v1.3.0...v1.3.1</pre>]]></description>
+      <pubDate>Thu, 19 Mar 2026 12:04:34 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.3.0/ClawDeck-1.3.0.dmg"
-        sparkle:edSignature="zYJgemRDkCW9Eo3V3akOdTcQvJhslUYe9IfgLQNxSiPCwZgXiqEsBKGdUy/1s83i6E5LpDRS64ioiUDTl6kUCw==" length="7528881"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.3.1/ClawDeck-1.3.1.dmg"
+        sparkle:edSignature="6gu9MIB7HwM3IbJHA17mxtVTUy4nAhlVwVhXLxUlfyoM14hLdzns8i1pM9G5gKTzFlrI05Ll9m1ZiQgxuqFPAg==" length="7543814"
         type="application/octet-stream"
-        sparkle:version="1.3.0"
-        sparkle:shortVersionString="1.3.0" />
+        sparkle:version="1.3.1"
+        sparkle:shortVersionString="1.3.1" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
