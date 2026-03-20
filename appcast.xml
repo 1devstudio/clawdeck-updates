@@ -8,31 +8,27 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.4.0</title>
+      <title>Version 1.4.1</title>
       <description><![CDATA[<pre>## What's New
 
-### 🗂️ Agents Management in Settings
-- **New Agents tab** in Settings (⌘,) for managing agent bindings
-- **Remove agents locally** from ClawDeck without touching the gateway configuration — the agent keeps running, other clients still see it
-- Agent list shows avatar, display name, gateway info, and connection status
-- Confirmation dialog clearly explains the removal is local-only
-- Auto-switches to the next agent if the active one is removed
-- Re-add agents anytime from the sidebar rail "+" button
-- Cannot remove the last remaining agent (safety guard)
+### 🗂️ Remove Agent from ClawDeck (Agent Settings)
+- **"Remove from ClawDeck"** button in Agent Settings → Danger Zone
+- Hides the agent locally — it keeps running on the gateway and can be re-added from the sidebar "+" button
+- Clear separation from **"Delete Agent"** which removes the agent from the gateway entirely
+- Confirmation dialog explains the difference
 
-### Notes
-- The existing "Delete Agent" in Agent Settings (gear icon) still removes agents from the gateway — use that when you want to fully decommission an agent
-- This release also includes setup code pairing from v1.3.1
+### Also includes (from v1.4.0)
+- Agents tab in Settings (⌘,) listing all agent bindings
 
 ---
-**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.3.1...v1.4.0</pre>]]></description>
-      <pubDate>Fri, 20 Mar 2026 18:38:28 +0000</pubDate>
+**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.4.0...v1.4.1</pre>]]></description>
+      <pubDate>Fri, 20 Mar 2026 18:56:28 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.4.0/ClawDeck-1.4.0.dmg"
-        sparkle:edSignature="DBqnUoLBGO0kmXyiGq6bUMRsj4HIE9tvgsgvEl+6111DbPGuL9Mw+dZMXMJ/Y0mm6srAOxGUwBHZpFQamTguDw==" length="7600074"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.4.1/ClawDeck-1.4.1.dmg"
+        sparkle:edSignature="vr8aExNbaQ9dkcFNiTs+mLLQCvXF4o8iWeuR8iXO4BWCg0uwQnIu1CfGLZFxXSTNBFz0/3O1QkHK6jZez4WiAg==" length="7608123"
         type="application/octet-stream"
-        sparkle:version="1.4.0"
-        sparkle:shortVersionString="1.4.0" />
+        sparkle:version="1.4.1"
+        sparkle:shortVersionString="1.4.1" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
