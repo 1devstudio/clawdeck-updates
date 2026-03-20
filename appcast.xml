@@ -8,32 +8,31 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
-      <title>Version 1.3.1</title>
-      <description><![CDATA[<pre>### Added
-- **Setup code pairing** — paste the setup code from `openclaw qr --json` for instant device authorization. No browser, no manual approval needed.
-  - New "Have a setup code?" link in the connection wizard
-  - Setup code field in the pairing sheet (primary path)
-  - Decodes base64 JSON payload (url + bootstrapToken)
-  - BootstrapToken sent during handshake for automatic pairing
+      <title>Version 1.4.0</title>
+      <description><![CDATA[<pre>## What's New
 
-### Fixed
-- **Correct pairing detection** — checks the connect response error code (`NOT_PAIRED`) instead of unreliable WebSocket close code sniffing
-- **Connection wizard handles pairing** — all probe paths (auto-detect, manual, advanced) detect pairing errors and show the pairing sheet
-- **Profile auto-saved on pairing** — gateway profile created automatically during first-time pairing
+### 🗂️ Agents Management in Settings
+- **New Agents tab** in Settings (⌘,) for managing agent bindings
+- **Remove agents locally** from ClawDeck without touching the gateway configuration — the agent keeps running, other clients still see it
+- Agent list shows avatar, display name, gateway info, and connection status
+- Confirmation dialog clearly explains the removal is local-only
+- Auto-switches to the next agent if the active one is removed
+- Re-add agents anytime from the sidebar rail "+" button
+- Cannot remove the last remaining agent (safety guard)
 
-### Improved
-- **Redesigned pairing sheet** — setup code as primary path, manual Control UI approval as fallback with auto-polling
-- **Version display** — MARKETING_VERSION correctly set to 1.3.1
+### Notes
+- The existing "Delete Agent" in Agent Settings (gear icon) still removes agents from the gateway — use that when you want to fully decommission an agent
+- This release also includes setup code pairing from v1.3.1
 
 ---
-**Full Changelog:** https://github.com/1devstudio/clawdeck/compare/v1.3.0...v1.3.1</pre>]]></description>
-      <pubDate>Thu, 19 Mar 2026 20:04:05 +0000</pubDate>
+**Full Changelog**: https://github.com/1devstudio/clawdeck/compare/v1.3.1...v1.4.0</pre>]]></description>
+      <pubDate>Fri, 20 Mar 2026 18:38:28 +0000</pubDate>
       <enclosure
-        url="https://github.com/1devstudio/clawdeck/releases/download/v1.3.1/ClawDeck-1.3.1.dmg"
-        sparkle:edSignature="E459bNNPEUDmZe6zg7n+ShxDqvL91k5ihr9r1wFS6MhqRPrcmPD09vVGfa/uckbAdpUKYbHdmsIeBuZy7kxDBQ==" length="7576099"
+        url="https://github.com/1devstudio/clawdeck/releases/download/v1.4.0/ClawDeck-1.4.0.dmg"
+        sparkle:edSignature="DBqnUoLBGO0kmXyiGq6bUMRsj4HIE9tvgsgvEl+6111DbPGuL9Mw+dZMXMJ/Y0mm6srAOxGUwBHZpFQamTguDw==" length="7600074"
         type="application/octet-stream"
-        sparkle:version="1.3.1"
-        sparkle:shortVersionString="1.3.1" />
+        sparkle:version="1.4.0"
+        sparkle:shortVersionString="1.4.0" />
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
